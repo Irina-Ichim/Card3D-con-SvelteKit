@@ -1,9 +1,13 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '../components/CustomBackground.svelte';
+  import CustomBackground from '../components/CustomBackground.svelte';
 </script>
 
 <div class="app">
+	<CustomBackground className="custom-background" />
+
 	<Header />
 
 	<main>
