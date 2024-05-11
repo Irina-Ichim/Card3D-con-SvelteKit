@@ -1,5 +1,5 @@
 <script>
-  // No necesitamos JavaScript para este efecto
+  
 </script>
 
 <div class="header">
@@ -14,12 +14,12 @@
 
   .title {
     position: absolute;
-    top: 20%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; 
+    color:  rgba(221, 74, 255, 0.8); 
     font-size: 3rem; 
-    text-shadow: 2px 2px 4px  rgba(221, 74, 255, 0.8); 
+    text-shadow: 2px 2px 4px  rgb(234, 219, 237); 
     z-index: 1; 
   }
 </style>
