@@ -3,12 +3,19 @@
 	import './styles.css';
 	import '../components/CustomBackground.svelte';
   import CustomBackground from '../components/CustomBackground.svelte';
+	import Card from '../components/Card.svelte';
+
+
+	let isMouseEntered = false; // o el valor inicial que desees
 </script>
 
 <div class="app">
 	<CustomBackground className="custom-background" />
 
 	<Header />
+
+	<Card {isMouseEntered} />
+
 
 	<main>
 		<slot />
