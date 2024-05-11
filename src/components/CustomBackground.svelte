@@ -12,7 +12,7 @@
       height: 100%;
       overflow: hidden;
       pointer-events: none;
-      z-index: -1;
+      z-index: 0;
     }
   
     .gradient {
