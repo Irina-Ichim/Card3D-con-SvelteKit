@@ -4,6 +4,7 @@
 	import '../components/CustomBackground.svelte';
   import CustomBackground from '../components/CustomBackground.svelte';
 	import Card from '../components/Card.svelte';
+  import Heart from '../components/Heart.svelte';
 
 
 	let isMouseEntered = false; // o el valor inicial que desees
@@ -15,6 +16,8 @@
 	<Header />
 
 	<Card {isMouseEntered} />
+
+	<Heart />
 
 
 	<main>
@@ -31,6 +34,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		overflow: hidden;
 	}
 
 	main {
@@ -42,6 +46,7 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+		
 	}
 
 	footer {
