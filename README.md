@@ -1,38 +1,52 @@
-# create-svelte
+# Card3D con SvelteKit 🚀
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<img src="./src/lib/images/gif.gif" alt="Alt Text" height="300"/>
 
-## Creating a project
+¡Bienvenido a Card3D con SvelteKit! Este proyecto es un ejemplo de cómo crear una tarjeta interactiva en 3D utilizando SvelteKit.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Funcionalidades ✨
+
+- La tarjeta responde al movimiento del ratón y al pasar el cursor sobre ella con efectos de rotación.
+- Los botones de acción (LinkedIn y GitHub) cambian de color al pasar el cursor sobre ellos.
+- Un botón en forma de corazón cuenta los clics cuando se presiona.
+- El fondo de la aplicación está compuesto por tres gradients superpuestos que se mueven de forma sincronizada, creando un efecto visual dinámico y llamativo.
+
+## Tecnologías Utilizadas 🛠️
+
+- [SvelteKit](https://kit.svelte.dev/): Framework para la construcción de aplicaciones web.
+- CSS: Estilos para la apariencia y la interacción de la tarjeta.
+
+## Creación de un Proyecto con SvelteKit 🚧
 
 ```bash
-# create a new project in the current directory
+# crear un nuevo proyecto en el directorio actual
 npm create svelte@latest
 
-# create a new project in my-app
+# crear un nuevo proyecto en my-app
 npm create svelte@latest my-app
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Cómo Usar 🚀
 
 ```bash
+# clona este repositorio
+
+git clone https://github.com/Irina-Ichim/Card3D-con-SvelteKit.git
+```
+
+```bash
+# Inicia el servidor de desarrollo:
+
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Abre tu navegador y visita <http://localhost:5173/> o <https://plantilla-con-svelte.vercel.app/> para ver la aplicación en funcionamiento.
 
-To create a production version of your app:
+## Contribución 🤝
 
-```bash
-npm run build
-```
+Si deseas contribuir a este proyecto, ¡siéntete libre de hacerlo! Simplemente abre un issue o envía una solicitud de extracción.
 
-You can preview the production build with `npm run preview`.
+Autor 👩‍💻
+Este proyecto fue creado por Irina Ichim. <www.irina-ichim.com>
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+¡Gracias por tu interés en este proyecto! 😊
